@@ -1,25 +1,27 @@
-# Table of Contents
+# Table of contents
 
 * [Maker Operational Manual](README.md)
 
 ## MakerDAO
-* Structure
+
+* [Structure](makerdao/structure/README.md)
   * [Maker Improvement Proposals](governance/mips.md)
   * [Core Units](core-units/core-units.md)
-* Overview
+* [Overview](makerdao/overview/README.md)
   * [Status and Dashboards](protocol-status/protocol-and-dao-status.md)
   * [Core Unit Budget Flow](core-units/core-unit-budget-flow.md)
   * [Common Abbreviations and Acronyms](protocol-status/acronyms.md)
   * [Discord Servers](misc/discords.md)
-* Calendars
+* [Calendars](makerdao/calendars/README.md)
   * [MakerDAO Calls Calendar](protocol-status/calls-calendar.md)
   * [MakerDAO Governance Calendar](protocol-status/governance-calendar.md)
 
 ## Governance
-* Governance Cycle
+
+* [Governance Cycle](governance/governance-cycle/README.md)
   * [Monthly Governance Cycle](governance/monthly-governance-cycle.md)
   * [Weekly Governance Cycle](governance/weekly-governance-cycle.md)
-* Flowcharts
+* [Flowcharts](governance/flowcharts/README.md)
   * [Governance Flow](governance/governance-flow.md)
   * [Urgent Governance Flow](governance/urgent-governance-flow.md)
   * [Governance Process Selector](governance/governance-process-selection-flow.md)
@@ -29,38 +31,40 @@
   * [On-Chain Governance](governance/on-chain-governance.md)
   * [Approval Voting Guide](governance/approval-voting-guide.md)
   * [Video Guide To Voting In The Maker Protocol](governance/how-to-vote.md)
-* Verification
+* [Verification](governance/verification/README.md)
   * [Executive Audit](governance/executive-audit.md)
   * [Executive Transactions](governance/executive-transaction-verification.md)
   * [GSM Exceptions](governance/gsm-exceptions.md)
-* Off-Chain
+* [Off-Chain](governance/off-chain/README.md)
   * [Off-Chain Governance](governance/off-chain-governance.md)
   * [Impact Estimations](governance/impact-estimations.md)
   * [Proposal Bounties](governance/proposal-bounties.md)
-* Technical MIPs
+* [Technical MIPs](governance/technical-mips/README.md)
   * [Best Practices](governance/technical-mips-development-best-practices.md)
   * [Code Example](governance/technical-mip-code-example.md)
-* [Emergency Shutdown](governance/emergency-shutdown.md)  
+* [Emergency Shutdown](governance/emergency-shutdown.md)
+
 ## Delegation
-  
-* Overview
+
+* [Overview](delegation/overview/README.md)
   * [What is Delegation?](delegation/what-is-delegation.md)
   * [Separation of Powers](delegation/separation-of-powers.md)
   * [Delegate Metric Tracking](delegation/delegate-metric-tracking.md)
-* For MKR Holders
+* [For MKR Holders](delegation/for-mkr-holders/README.md)
   * [MKR Holders Guide to Delegation](delegation/mkr-holder-guide.md)
   * [MKR Holders Agreement](delegation/mkr-holder-agreement.md)
   * [How To Delegate Video](delegation/mkr-holder-how-to-delegate.md)
-* For Delegates  
+* [For Delegates](delegation/for-delegates/README.md)
   * [Recognized Delegate Requirements](delegation/recognized-delegate-requirements.md)
   * [Delegates Code of Conduct](delegation/delegates-code.md)
   * [Why Become a Recognized Delegate?](delegation/why-to-become-a-recognized-delegate.md)
   * [How to Attract More MKR as a Recognized Delegate?](delegation/delegate-attract-more-mkr.md)
 * [Delegate Contract Migration](delegation/delegate-expiration.md)
-  
+
 ## Collateral
+
 * [Overview](collateral/collateral-overview.md)
-* Real World Assets In Detail
+* [Real World Assets In Detail](collateral/real-world-assets-in-detail/README.md)
   * [6s Capital](collateral/6s.md)
   * [New Silver DROP](collateral/new-silver.md)
   * [ConsolFreight DROP](collateral/consolfreight.md)
@@ -68,23 +72,23 @@
   * [Harbour Trade Credit DROP](collateral/harbour-trade.md)
   * [Huntingdon Valley Bank](collateral/hvbank.md)
   * [Monetalis Clydesdale](collateral/monetalis-clydesdale.md)
-  
+
 ## Parameter Index
 
-* Core
+* [Core](parameter-index/core/README.md)
   * [Governance Pause Delay](parameter-index/core/param-gsm-pause-delay.md)
   * [Maximum System Surplus](parameter-index/core/param-system-surplus-buffer.md)
   * [Dai Savings Rate](parameter-index/core/param-dai-savings-rate.md)
   * [Global Liquidation Limit](parameter-index/core/param-global-liquidation-limit.md)
   * [Global Debt Ceiling](parameter-index/core/param-global-debt-ceiling.md)
-* Vault Risk
+* [Vault Risk](parameter-index/vault-risk/README.md)
   * [Stability Fee](parameter-index/vault-risk/param-stability-fee.md)
   * [Debt Ceiling](parameter-index/vault-risk/param-debt-ceiling.md)
   * [Liquidation Ratio](parameter-index/vault-risk/param-liquidation-ratio.md)
   * [Liquidation Penalty](parameter-index/vault-risk/param-liquidation-penalty.md)
   * [Debt Floor](parameter-index/vault-risk/param-debt-floor.md)
   * [RWA Agreement](parameter-index/vault-risk/param-rwa-agreement.md)
-* Collateral Auction
+* [Collateral Auction](parameter-index/collateral-auction/README.md)
   * [Auction Price Function](parameter-index/collateral-auction/param-auction-price-function.md)
   * [Auction Price Multiplier](parameter-index/collateral-auction/param-auction-price-multiplier.md)
   * [Local Liquidation Limit](parameter-index/collateral-auction/param-local-liquidation-limit.md)
@@ -93,13 +97,13 @@
   * [Breaker Price Tolerance](parameter-index/collateral-auction/param-breaker-price-tolerance.md)
   * [Proportional Kick Incentive](parameter-index/collateral-auction/param-proportional-kick-incentive.md)
   * [Flat Kick Incentive](parameter-index/collateral-auction/param-flat-kick-incentive.md)
-* Surplus Auction
+* [Surplus Auction](parameter-index/surplus-auction/README.md)
   * [Surplus Auction Lot Size](parameter-index/surplus-auction/param-surplus-lot-size.md)
   * [Surplus Auction Minimum Bid Increase](parameter-index/surplus-auction/param-min-bid-increase-flap.md)
   * [Surplus Auction Duration](parameter-index/surplus-auction/param-auction-duration-flap.md)
   * [Surplus Auction Bid Duration](parameter-index/surplus-auction/param-bid-duration-flap.md)
   * [Surplus Auction Limit](parameter-index/surplus-auction/param-surplus-auction-limit.md)
-* Debt Auction
+* [Debt Auction](parameter-index/debt-auction/README.md)
   * [Debt Auction Minimum Bid Decrease](parameter-index/debt-auction/param-min-bid-decrease-flop.md)
   * [Debt Auction Duration](parameter-index/debt-auction/param-auction-duration-flop.md)
   * [Debt Auction Bid Duration](parameter-index/debt-auction/param-bid-duration-flop.md)
@@ -108,8 +112,8 @@
   * [Debt Auction Initial Lot Size](parameter-index/debt-auction/param-initial-lot-size.md)
   * [Debt Auction Lot Size Increase](parameter-index/debt-auction/param-lot-size-increase.md)
 
-
 ## Module Index
+
 * [Peg Stability](module-index/module-psm.md)
 * [Debt Ceiling Instant Access](module-index/module-dciam.md)
 * [Token Streaming](module-index/module-token-streaming.md)
